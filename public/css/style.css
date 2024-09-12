@@ -1,5 +1,23 @@
+:root{
+  --bg:#752323;
+  --font:#ebf8e1;
+  --hover:#b6c4a1;
+  --grey:rgb(42, 59, 68);
+  --green:rgb(98, 160, 98);
+  --purple:rgb(59, 54, 126);
+  --blueblack: rgb(2, 2, 59); 
+  --black:black;
+
+}
+
 header, .project:not(:last-child) {
-  border-bottom: 1px solid #ccc;
+  border-bottom: 2px dashed var(--font);
+   background: linear-gradient(0.25turn, var(--black), var(--blueblack), var(--black)); 
+}
+
+body{
+
+  background: linear-gradient(0.25turn, var(--blueblack), var(--black), var(--blueblack));
 }
 
 .no-button {
@@ -21,4 +39,7 @@ header, .project:not(:last-child) {
   color: #056605;
   font-weight: bold;
   margin-left: -5px;
-}
+/* }
+header:hover { border-style: dashed double dashed;
+  box-shadow: inset 0 0 80px  var(--hover);
+ */
