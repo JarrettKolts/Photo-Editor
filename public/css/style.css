@@ -39,6 +39,19 @@ body{
   color: #056605;
   font-weight: bold;
   margin-left: -5px;
+}
+.style{
+  text-align: center;
+  margin:10px;
+  padding:20px;
+}
+p{
+  padding:30px;
+  font-size: 25px;
+}
+#title{
+  text-decoration: underline overline white;
+}
 /* }
 header:hover { border-style: dashed double dashed;
   box-shadow: inset 0 0 80px  var(--hover);
