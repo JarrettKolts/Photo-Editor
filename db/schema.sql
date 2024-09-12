@@ -1,2 +1,2 @@
-DROP DATABASE IF EXISTS photoEditor_db;
-CREATE DATABASE photoEditor_db;
+DROP DATABASE IF EXISTS photoeditor_db;
+CREATE DATABASE photoeditor_db;
