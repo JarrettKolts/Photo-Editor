@@ -21,40 +21,4 @@ module.exports = {
       return `<span for="img" aria-label="gear">⚙️</span>`;
     }
   },
-  format_jpeg: (image) => {
-    const data = sharp(image).toformat('jpeg');
-    return data;
-  },
-  format_png: (image) => {
-    const data = sharp(image).toformat('png');
-    return data;
-  },
-  format_webp: (image) => {
-    const data = sharp(image).toformat('webp');
-    return data;
-  },
-  format_gif: (image) => {
-    const data = sharp(image).toformat('gif');
-    return data;
-  },
-  image_flip: (image) => {
-    const data = sharp(image).flip();
-    return data;
-  },
-  image_flop: (image) => {
-    const data = sharp(image).flop();
-    return data;
-  },
-  image_sharpen: (image) => {
-    const data = sharp(image).sharpen();
-    return data;
-  },
-  image_blur: (image) => {
-    const data = sharp(image).blur();
-    return data;
-  },
-  image_greyscale: (image) => {
-    const data = sharp(image).greyscale();
-    return data;
-  },
 };
