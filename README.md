@@ -10,7 +10,17 @@ This is a web-based image editor and converter built using Node.js, Express, and
   - Rotate images
   - Convert to different formats (e.g., PNG, JPEG)
   - Apply grayscale or blur effects
-- Download edited images
+
+## Future Releases
+
+- Add a "Download image" button
+- Fix the reload issue after every use
+- Process larger files
+- Format to more filetypes
+- The ability to resize images within the application
+- The ability to save images to your profile (Subscription based)
+- Introduce AI that creates images based off a text description from the user (Premium subscription)
+
 
 ## Technologies Used
 
