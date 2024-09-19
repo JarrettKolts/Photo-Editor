@@ -6,8 +6,7 @@ This is a web-based image editor and converter built using Node.js, Express, and
 - Apply transformations:
   - Flip and flop images
   - Apply grayscale or blur effects
-  - Sharpen images
-
+  - 
 ## Future Releases
 - Add a "Download image" button
 - Fix the reload issue after every use
