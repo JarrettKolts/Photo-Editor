@@ -25,6 +25,6 @@ This is a web-based image editor and converter built using Node.js, Express, and
 Deployed Link: https://image-alchemy-lr48.onrender.com
 
 ## Deployed Application
-![Deployed Application Main Page](public\img\Deployed-Application-1.png)
+![Deployed Application Main Page](<public\img\Deployed-Application-1.png>)
 
-![Deployed Application Image Edit Page](public\img\Deployed-Application-2.png)
+![Deployed Application Image Edit Page](<public\img\Deployed-Application-2.png>)
