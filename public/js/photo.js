@@ -8,7 +8,7 @@ const newFormHandler = (event) => {
   const editType = document.querySelector("#edit-type").value;
   imageData.append("editType", editType);
   
-  fetch("http://localhost:3001/image_upload", {
+  fetch("https://image-alchemy-lr48.onrender.com/image_upload", {
     method: "post",
     body: imageData
   });
