@@ -14,7 +14,7 @@ const newFormHandler = (event) => {
   });
   
   const imageOutput = document.querySelector("#edited-image");
-  imageOutput.setAttribute("src", `img/${imageInput.name}`);
+  imageOutput.setAttribute("src", `img/${imageInput.name}?t=${new Date().getTime()}`);
 };
 document.addEventListener('submit', newFormHandler);
 
